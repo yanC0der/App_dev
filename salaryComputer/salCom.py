@@ -1,12 +1,25 @@
-name = input("Enter your name: ")
-hours_worked = float(input("Enter hours worked: "))
-hourly_rate = float(input("Enter hourly rate: "))
+print("=== Employee Salary Calculator ===")
 
-salary = hours_worked * hourly_rate
+# Employee 1
+print("\nEmployee 1")
+name1 = input("Enter name: ")
+hours1 = float(input("Enter hours worked: "))
+rate1 = float(input("Enter hourly rate: "))
 
-print("\n--- Salary Details ---")
-print("Employee:", name)
-print("Hours Worked:", hours_worked)
-print("Hourly Rate: ₱", hourly_rate)
-print("Total Salary: ₱", salary)
+salary1 = hours1 * rate1
 
+# Employee 2
+print("\nEmployee 2")
+name2 = input("Enter name: ")
+hours2 = float(input("Enter hours worked: "))
+rate2 = float(input("Enter hourly rate: "))
+
+salary2 = hours2 * rate2
+
+# Display results
+print("\n=== Salary Details ===")
+print("Employee:", name1)
+print("Salary: ₱", salary1)
+
+print("\nEmployee:", name2)
+print("Salary: ₱", salary2)
